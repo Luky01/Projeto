@@ -16,8 +16,6 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
   <img alt="License" src="src/img/DevLinks.png">
 </p>
 
-<br>
-
 <p align="center">
   <img alt="projeto DevLinks" src=".github/DevLinks.png">
 </p>
