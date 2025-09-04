@@ -14,7 +14,7 @@
   --stroke-color: rgba(67, 68, 68);
   --surface-color:  rgba(210, 210, 214, 0.918);
     --surface-color-hover: rgba(67, 68, 68);
-  --highligh-color: rgba(67, 68, 68);
+  --highligh-color: rgba(210, 210, 214, 0.918);
   --switch-bg-url: url(./lua.svg)
 }
 
@@ -39,7 +39,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -84,12 +85,17 @@ body * {
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
+
+  animation: slide-back .3s;
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in .3s forwards;
 
+}
+
+#switch button:hover{
+  outline: 8px solid var(--highligh-color);
 }
 #switch span{
   display:block;
@@ -154,4 +160,27 @@ ul li a:hover {
 #social-links a:hover {
   background-color: var(--highligh-color);
   border-radius: 50%;
+}
+
+/* animatio */
+@keyframes slide-in {
+  from {
+    left:0;
+  }
+  
+  to{
+  left:50%;
+  }
+}
+
+@keyframes slide-back {
+
+from {
+    left:50%;
+  }
+  
+  to{
+  left:0;
+  }
+  
 }
