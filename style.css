@@ -110,17 +110,19 @@ body * {
 
 /* links */
 ul {
-  list-style: none;
+    list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 30%;
+  gap: 8px;
   padding: 24px 0;
+  align-items: center;
+  justify-content: center;
 }
 ul li a {
   display: flex;
+  width: 275px;
   align-items: center;
   justify-content: center;
-  
   padding: 16px 24px;
   
   background: var(--surface-color);
