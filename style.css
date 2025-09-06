@@ -11,10 +11,10 @@
 :root{
   --text-color:white;
   background-color: #020024;
-background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);;
+ background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
   --stroke-color: rgb(228, 231, 235);
   --surface-color:  rgba(28, 28, 104, 0.918);
-    --surface-color-hover: rgb(10, 72, 241);
+  --surface-color-hover: rgb(10, 72, 241);
   --highligh-color: rgb(10, 72, 241);
   --switch-bg-url: url(./lua.svg)
 }
@@ -49,10 +49,14 @@ body * {
 #profile {
   text-align: center;
   padding: 24px 0 ;
+  margin-top: 64px;
+  align-items: center;
 }
 
 #profile img {
   width: 100px;
+  margin-top: 32px;
+  align-items: center;
 }
 #profile p {
   font-weight: 500;
@@ -72,6 +76,7 @@ body * {
   width: 64px;
 
   margin: 4px auto;
+  margin-top: 1%;
 
 }
 
@@ -149,8 +154,8 @@ ul li a:hover {
 #social-links {
   display: flex;
   justify-content: center;
-  gap: 40px;
-  padding: 24 0px;
+  gap: 50px;
+  padding: 24 24px;
   font-size: 24px;
 }
 
