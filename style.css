@@ -10,22 +10,24 @@
 }
 :root{
   --text-color:white;
-  --bg-url: url(./COMPLEMENTOS/black\ wood.jpg);
-  --stroke-color: rgba(67, 68, 68);
-  --surface-color:  rgba(210, 210, 214, 0.918);
-    --surface-color-hover: rgba(67, 68, 68);
-  --highligh-color: rgba(210, 210, 214, 0.918);
+  background-color: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);;
+  --stroke-color: rgb(228, 231, 235);
+  --surface-color:  rgba(28, 28, 104, 0.918);
+    --surface-color-hover: rgb(10, 72, 241);
+  --highligh-color: rgb(10, 72, 241);
   --switch-bg-url: url(./lua.svg)
 }
 
 
 .light{
   --text-color:rgb(0, 0, 0);
-  --bg-url: url(./COMPLEMENTOS/white\ wood.jpg);
-  --stroke-color: rgba(190, 190, 194, 0.856);
-  --surface-color:  rgb(67, 68, 68);
-  --surface-color-hover: rgba(210, 210, 214, 0.918);
-  --highligh-color: rgba(67, 68, 68); 
+background: #ebeb05;
+background: linear-gradient(90deg, rgba(235, 235, 5, 1) 0%, rgba(221, 224, 18, 1) 3%, rgba(220, 197, 17, 1) 45%, rgba(219, 194, 2, 1) 100%);
+  --stroke-color: rgba(238, 238, 245, 0.856);
+  --surface-color:  rgb(240, 159, 9);
+  --surface-color-hover: rgba(219, 221, 92, 0.918);
+  --highligh-color: rgb(228, 114, 8); 
   --switch-bg-url: url(./sol.svg)
 }
 
