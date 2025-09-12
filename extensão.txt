@@ -1,0 +1,4 @@
+Live Server
+Omni Theme
+Material Icon Theme 
+Prettier
