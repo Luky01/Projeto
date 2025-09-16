@@ -9,6 +9,13 @@
   const valornumber = Number (valorstring);
 
   console.log(typeof valornumber);
+/*
+Objeto {}
+Lista []
+Null - Nulo
+undefind
+*/
+
   //
 
   //3 - manipulação de Satring
