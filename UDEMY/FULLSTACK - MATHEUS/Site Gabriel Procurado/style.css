@@ -17,7 +17,6 @@ img{
   display:block;
   background-color: rgb(90, 55, 2); 
   border-radius: 24px;
-  margin auto;
   
 }
 
@@ -37,9 +36,6 @@ color:chartreuse;
 }
 .container h2{
 text-align: center;
-  
-}
-.container p {
   
 }
 
