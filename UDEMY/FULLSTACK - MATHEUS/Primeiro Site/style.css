@@ -1,0 +1,51 @@
+body{
+box-sizing: border-box;
+    width: 800px;
+    padding: 24px;
+    background-image: url("/img/black\ wood.jpg");
+    border-radius: 24px;
+    margin: 48px auto;
+}
+
+img{
+  block-size: 177px;
+  border-radius: 30px;
+}
+.container {
+  width: 500px;
+  padding: 30px;
+  display:block;
+  background-color: rgb(90, 55, 2); 
+  border-radius: 24px;
+  margin auto;
+  
+}
+
+.container h1{
+
+background-color:rgb(51, 31, 2);
+color: blanchedalmond;
+text-align: center;
+  
+}
+
+.container h3{
+background-color:rgb(51, 31, 2);
+text-align: center;
+color:chartreuse;
+  
+}
+.container h2{
+text-align: center;
+  
+}
+.container p {
+  
+}
+
+.container al {
+  display: block;
+  text-align: center;
+  color: whitesmoke;
+  
+}
