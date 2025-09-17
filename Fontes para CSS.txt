@@ -1,0 +1,11 @@
+Serif
+
+Sans-serif
+
+Monospace
+
+Cursive
+
+Fantasy
+
+Helvetica
