@@ -28,6 +28,10 @@ background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(255, 255, 255, 1
     border-radius: 24px;
 }
 
+.fundo image{
+
+}
+
 img{
   width: 300px;
   height: 300px;
